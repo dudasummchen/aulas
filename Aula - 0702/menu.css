@@ -1,0 +1,44 @@
+
+#menu ul li{
+    list-style-type: none;
+    float: left;
+}
+
+
+#menu ul li a{
+    background-color: aqua;
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+}
+#menu ul li a:hover{
+    background-color: rgb(214, 41, 110);
+}
+.bloco{
+    width: 50%;
+    height: 400px;
+    display: block;
+    float: left;
+    background-color: blueviolet;
+}
+.bloc img{
+    width: 10%;
+}
+.bloc p{
+    width: 45%;
+    margin-right: 10px;
+}
+.esq{
+    float: left;
+}
+.dir{
+    float: right;
+}
+.corPreto{
+    background-color: black;
+}
+.quebra{
+    clear: both;
+    margin-bottom: 30px;
+}
